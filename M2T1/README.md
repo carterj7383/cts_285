@@ -31,5 +31,8 @@ start installing requirments:
  to start
  - flask --app hello run
 
-export FLASK_APP=xxx.py
-flask run
+
+ex:
+- flask run --port=5001
+- export FLASK_APP=xxx.py
+- flask run
