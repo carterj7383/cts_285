@@ -30,3 +30,6 @@ start installing requirments:
 
  to start
  - flask --app hello run
+
+export FLASK_APP=xxx.py
+flask run
