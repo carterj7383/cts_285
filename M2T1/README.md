@@ -41,3 +41,7 @@ starting up again:
 - cd m2t1
 - source venv/bin/activate
 - flask --debug --app hello run
+
+## M2T2 
+Next, we start with a "a first cut with dummy data"
+- add main_page.html
