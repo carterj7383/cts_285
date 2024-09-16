@@ -1,38 +1,43 @@
 # M2T1 - Webapp #1
 
-## goals
-- to learn basic flask prrgramming
+## goals:
+- to learn basic Flask programming
 - to be able to repeat a server config
-- maybe to fave fun
+- maybe to have fun
 
-# lessons learned
+## lessons learned
+bash commands you cannot live without:
+- ls <- what's in this directory
+- cd <- change directory
+- source <- run a script (like activate)
 
 ## instructions
-intitial tutorial: http://blog.pythonanywhere.com/121/
+initial tutorial: https://blog.pythonanywhere.com/121/
 but we're using codespaces instead of PA
 
 install library:
 
-first setup up virtualenviroment
+first set up virtualenvironment
+- cd m2t1 (make the folder first)
 - pip install virtualenv
 - virtualenv venv
 - source venv/bin/activate
-now we have our "venv" enviroment, so we can install things in it.
+now we have our "venv" environment, so we can install things in it.
 to turn it off:
 - deactivate
 
-start installing requirments:
- - pip install flask
- - pip freeze > requirements.txt
+start installing requirements:
+- pip install flask
+- pip freeze > requirements.txt
 
- now we can weite our minimal Flask app to test it
- TODO: write a Flask app that does somthing usefull
+now we can write our minimal Flask app to test it
+TODO: write a Flask app that does something useful!
 
- to start
- - flask --app hello run
+to start:
+- flask --debug --app hello run
 
-
-ex:
-- flask run --port=5001
-- export FLASK_APP=xxx.py
-- flask run
+----
+starting up again:
+- cd m2t1
+- source venv/bin/activate
+- flask --debug --app hello run
