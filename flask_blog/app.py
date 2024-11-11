@@ -20,12 +20,6 @@ def get_post(post_id):
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    conn = get_db_connection()
-    posts = conn.execute('SELECT * FROM posts').fetchall()
-    conn.close()
-    return render_template('index.html', posts=posts)
 
 @app.route('/<int:post_id>')
 def post(post_id):
